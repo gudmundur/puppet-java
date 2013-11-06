@@ -6,11 +6,11 @@
 class java {
   include boxen::config
 
-  $jre_version = '7u40'
-  $jdk_version = '7u40'
-  $jdk_build_number = '43'
+  $jre_version = '7u45'
+  $jdk_version = '7u45'
+  $jdk_build_number = '18'
 
-  $jdk_dir_name = 'jdk1.7.0_40.jdk'
+  $jdk_dir_name = 'jdk1.7.0_45.jdk'
   $jce_path = "/Library/Java/JavaVirtualMachines/${jdk_dir_name}/Contents/Home/jre/lib/security"
 
   $jre_dmg_location = "${boxen::config::home}/repo/.tmp/jre.dmg"
